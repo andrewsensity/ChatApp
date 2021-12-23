@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "371419093712",
+    "project_id": "chatapp-9f2da",
+    "storage_bucket": "chatapp-9f2da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371419093712:android:f5ebaad6448622d7905cd5",
+        "android_client_info": {
+          "package_name": "com.sistecredito.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371419093712-a98ef0b9s5k2n8ekd1gkc5qha5mha3du.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sistecredito.chatapp",
+            "certificate_hash": "9bcd5f1462773beb07fe13623e856710f1bab3e6"
+          }
+        },
+        {
+          "client_id": "371419093712-tncd0l3ijcs6ivfhb22bmr15p772c5vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByN7LIZ2EYfIv_TWCfSJDNsS0akFtDiFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371419093712-tncd0l3ijcs6ivfhb22bmr15p772c5vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

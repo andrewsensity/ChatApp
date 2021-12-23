@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.ChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ilMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ilMessage"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxBackgroundColor="@color/blue_siste"
+        app:boxCornerRadiusBottomEnd="@dimen/radius_tvmessage"
+        app:boxCornerRadiusBottomStart="@dimen/radius_tvmessage"
+        app:boxCornerRadiusTopEnd="@dimen/radius_tvmessage"
+        app:boxCornerRadiusTopStart="@dimen/radius_tvmessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/fabSend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:startIconDrawable="@drawable/reaction"
+        app:startIconTint="@color/white"
+        app:boxStrokeWidth="0dp"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/camera"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:gravity="center_vertical"
+            android:hint="Message" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSend"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/send"
+        app:fabCustomSize="60dp"
+        android:backgroundTint="@color/green_siste"
+        app:layout_constraintBottom_toBottomOf="@+id/ilMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ilMessage"
+        app:tint="@android:color/white" />
+</androidx.constraintlayout.widget.ConstraintLayout>
