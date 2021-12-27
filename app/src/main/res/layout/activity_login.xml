@@ -64,7 +64,7 @@
         android:id="@+id/logInBtn"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="100dp"
         android:backgroundTint="#6FD852"
         android:text="Log In"
         android:textAllCaps="false"
